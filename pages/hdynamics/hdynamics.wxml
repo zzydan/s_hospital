@@ -1,12 +1,15 @@
 <!--pages/hdynamics/hdynamics.wxml-->
 <!-- <text>pages/hdynamics/hdynamics.wxml</text> -->
-<view class="dyda">
-  <navigator url="">
-    <view class="dyzi">
-      <text>我院专科医师赴法参加临床研究培训</text>
-    </view>
+<block wx:for="{{list}}" wx:fot-item="list">
+  <view class="dyda">
+    <navigator url="/pages/hdynamicszi/hdynamicszi">
     <view class="dytu">
-     <image src="../../images/1.png" mode="as"></image>
-    </view>
-  </navigator>
-</view>
+        <image src="../../images/1.png" mode="as"></image>
+      <view class="dyzi">
+        <text>{{list}}</text>
+      </view> 
+      </view>
+    </navigator>
+  </view>
+</block>
+
