@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/hdynamicszi/hdynamicszi",
     "pages/hdynamics/hdynamics",
     "pages/index/index",
     "pages/logs/logs"
