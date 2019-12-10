@@ -1,0 +1,12 @@
+<!--pages/hdynamics/hdynamics.wxml-->
+<!-- <text>pages/hdynamics/hdynamics.wxml</text> -->
+<view class="dyda">
+  <navigator url="">
+    <view class="dyzi">
+      <text>我院专科医师赴法参加临床研究培训</text>
+    </view>
+    <view class="dytu">
+     <image src="../../images/1.png" mode="as"></image>
+    </view>
+  </navigator>
+</view>

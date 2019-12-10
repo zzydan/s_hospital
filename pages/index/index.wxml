@@ -1,0 +1,4 @@
+<button bindtap='houduanRequest'>获取信息</button>
+<view wx:for="{{list}}" wx:fot-item="item">
+  姓名：{{item}}
+</view>

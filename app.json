@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/hdynamics/hdynamics",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "医院介绍",
+    "navigationBarTextStyle": "black"
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
